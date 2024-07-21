@@ -1,4 +1,5 @@
 import streamlit as sl
+import pandas
 
 sl.set_page_config(layout="wide")
 
@@ -17,4 +18,16 @@ with col2:
     """
     sl.info(content)
 
-sl.text_input("Below you can find some of my projects:")
+sl.text("Below you can find some of my projects:")
+
+col3, col4 = sl.columns(2)
+
+df = pandas.read_csv("data.csv", sep=";")
+
+with col3:
+    for index, row in df[:10].iterrows():
+        sl.header(row["title"])
+
+with col4:
+    for index, row in df[10:].iterrows():
+        sl.header(row["title"])
