@@ -6,15 +6,29 @@ sl.set_page_config(layout="wide")
 col1, col2 = sl.columns(2)
 
 with col1:
-    sl.image("images/21.png", width=450)
+    sl.image("images/21.png", use_column_width=True)
 
 with col2:
     sl.title("Frederick Kwaku Kankam")
     content = """ 
-    Hi, I am Fred! I am a Python programmer, and a Computer Science student in the University of Ghana(UG).
-    I have a passion for innovation and solving real-life problems. I got my basic school education at Cejose Wisdom 
-    International School.I had my secondary School Education at Chemu Senior High Technical School where I studied 
-    General Science.
+    Hello, I am Fred, an enthusiastic Python programmer and a dedicated Computer Science student at the University of
+     Ghana (UG). My journey in the world of technology began with a solid foundation at Cejose Wisdom International 
+     School, where I cultivated a love for learning and curiosity. This journey continued at Chemu Senior High Technical
+      School, where I excelled in General Science, laying the groundwork for my future in tech.At the University of 
+      Ghana, I am immersed in a dynamic and rigorous Computer Science program that sharpens my analytical and 
+      problem-solving skills. My coursework and projects have allowed me to delve deeply into various aspects of 
+      computer science, including software development, data structures, algorithms, and machine learning. 
+      I am particularly proficient in Python, leveraging its versatility to create innovative solutions and streamline
+       complex processes. My passion for innovation drives me to seek out and tackle real-world problems through 
+       technology. I am committed to continuous learning and staying updated with the latest industry trends and 
+       advancements. My goal is to contribute to impactful projects that push the boundaries of what technology can 
+       achieve. Whether it's developing scalable software, optimizing algorithms, or exploring new technological 
+       frontiers, I am eager to apply my skills in a meaningful way. In addition to my academic pursuits, I actively 
+       participate in tech communities and collaborative projects. This involvement not only enhances my technical 
+       expertise but also hones my teamwork and communication skills, essential for thriving in the tech industry. 
+       I am always open to new challenges and opportunities to collaborate with like-minded professionals who share my 
+       vision for leveraging technology to make a positive difference in the world. Thank you for considering my profile
+       . I look forward to the possibility of contributing to your innovative and forward-thinking projects.
     """
     sl.info(content)
 
