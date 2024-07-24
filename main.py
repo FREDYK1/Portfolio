@@ -36,19 +36,19 @@ sl.text("Below you can find some of my projects:")
 
 col3, empty_col, col4 = sl.columns([1.5, 0.5, 1.5])
 
-df = pandas.read_csv("data.csv")
+df = pandas.read_csv("data.csv", sep=";")
 
 with col3:
     for index, row in df[:10].iterrows():
         sl.header(row["title"])
         sl.write(row["description"])
-        sl.image("images/" + row["image"])
+        sl.image(F"images/{row['image']}")
         sl.write(f"[Source Code]({row['url']})")
 
 with col4:
     for index, row in df[10:].iterrows():
         sl.header(row["title"])
         sl.write(row["description"])
-        sl.image("images/" + row["image"])
-        sl.write(f"[Source Code]({row['url']})")
+        sl.image(F"images/{row['image']}")
+        sl.write(F"[Source Code]({row['url']})")
 
