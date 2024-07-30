@@ -11,8 +11,8 @@ with col1:
 with col2:
     sl.title("Frederick Kwaku Kankam")
     content = """ 
-    Hello, I am Fred, an enthusiastic Python programmer and a dedicated Computer Science student at the University of
-     Ghana (UG). My journey in the world of technology began with a solid foundation at Cejose Wisdom International 
+    Hello, I am Fred, an enthusiastic Python programmer, a dedicated Computer Science student at the University of
+     Ghana (UG) and founder of KanTech Labs. FMy journey in the world of technology began with a solid foundation at Cejose Wisdom International 
      School, where I cultivated a love for learning and curiosity. This journey continued at Chemu Senior High Technical
       School, where I excelled in General Science, laying the groundwork for my future in tech.At the University of 
       Ghana, I am immersed in a dynamic and rigorous Computer Science program that sharpens my analytical and 
