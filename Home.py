@@ -1,7 +1,7 @@
 import streamlit as sl
 import pandas
 
-sl.set_page_config(layout="wide")
+sl.set_page_config(page_title="CEO's Portfolio", page_icon="images/Kantech_favicon.png", layout="wide")
 
 col1, col2 = sl.columns(2)
 
@@ -51,4 +51,3 @@ with col4:
         sl.write(row["description"])
         sl.image(F"images/{row['image']}")
         sl.write(F"[Source Code]({row['url']})")
-
