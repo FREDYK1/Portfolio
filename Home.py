@@ -31,7 +31,7 @@ with col2:
        vision for leveraging technology to make a positive difference in the world. Thank you for considering my profile
        . I look forward to the possibility of contributing to your innovative and forward-thinking projects.
     """
-    sl.info(content)
+    sl.write(content)
 
 sl.text("Below you can find some of my projects:")
 
