@@ -1,6 +1,6 @@
 import streamlit as sl
 import pandas
-import os
+
 
 sl.set_page_config(page_title="CEO's Portfolio", page_icon="images/Kantech_favicon.png", layout="wide")
 
