@@ -7,7 +7,7 @@ sl.set_page_config(page_title="CEO's Portfolio", page_icon="images/Kantech_favic
 col1, col2 = sl.columns(2)
 
 with col1:
-    sl.image("images/21.png", use_column_width=True)
+    sl.image("images/21.png", use_container_width=True)
 
 with col2:
     sl.title("Frederick Kwaku Kankam")
